@@ -1,11 +1,13 @@
-import { useState } from "react";
-
 import "./styles/reset.scss";
 import "./styles/variables.scss";
 import "./styles/global.scss";
-
+import { Conv } from "./PageComponents/Coversation/Conv";
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="container">
+      <Conv />
+    </div>
+  );
 }
 
 export default App;
