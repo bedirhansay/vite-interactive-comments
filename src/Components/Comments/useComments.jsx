@@ -8,6 +8,13 @@ const CommentContextProvider = ({ children, data }) => {
   );
 };
 
-function usecomment() {
+function useComment() {
   const context = useContext(CommentContext);
+
+  if (!context) {
+    throw new Error("There is no context before initalize it");
+  }
+  return context;
 }
+
+export { useComment, CommentContextProvider };
