@@ -1,0 +1,39 @@
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  gap: 16px;
+  img {
+    width: 30px;
+    object-fit: scale-down;
+    object-position: center;
+  }
+  h3 {
+    font-weight: 500;
+    color: var(--dark-blue);
+  }
+  strong {
+    background-color: var(--moderate-blue);
+    color: var(--white);
+    font-weight: 700;
+    padding: 1px 3px;
+    border-radius: 4px;
+  }
+  span {
+  }
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}

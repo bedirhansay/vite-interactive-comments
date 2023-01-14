@@ -1,0 +1,24 @@
+.comment-wrapper {
+  display: flex;
+
+  gap: 16px;
+  background-color: var(--white);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.comment-area {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 48px;
+  border-left: 2px solid var(--light-grayish-blue);
+  padding-left: 24px;
+}

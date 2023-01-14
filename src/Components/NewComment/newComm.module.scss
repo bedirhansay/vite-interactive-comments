@@ -1,0 +1,18 @@
+.comment-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 16px;
+
+  img {
+    width: 30px;
+    object-fit: scale-down;
+    object-position: center;
+  }
+  textarea {
+    width: 100%;
+  }
+}
